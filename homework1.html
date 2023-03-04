@@ -120,29 +120,25 @@
 			<br/><br/><br/>
 			<div class="col-12 col-sm-12 col-md-3"></div>
 			<div class="col-12 col-sm-12 col-md-4">
-				<form action="1.php" method="post">
-			        <label for="userName">姓名:</label>
-					<input type="text" id="userName" size="20" value="" placeholder="你的大名" required>
-					<br/><br/>
-					<label for="userName">學號:</label>
-					<input type="text" id="id" size="20" value="" required>
-					<br/><br/>
+				<form action="homework1.php" method="post" >
+					姓名: <input type="text" name="userName" placeholder="你的大名"required><br/>
+					<br/>
+					學號: <input type="text" name="id"><br/><br/>
 					系級:
-					<input type="radio" name="age" checked>115級
-					<input type="radio" name="age">114級
-					<input type="radio" name="age">113級
-					<input type="radio" name="age">112級
+					<input type="radio" name="age" value="one" checked>115級
+					<input type="radio" name="age" value="two">114級
+					<input type="radio" name="age" value="three">113級
+					<input type="radio" name="age" value="four">112級
 					<br/><br/>
 					飲食習慣:
-					<input type="radio" name="eat" checked >吃肉的
-					<input type="radio" name="eat">吃草的
+					<input type="radio" name="eat" value="meat"checked >吃肉的
+					<input type="radio" name="eat" value="vegetable">吃草的
 					<br/><br/>
 					有繳系費嗎:
-					<input type="radio" name="money" checked >有
-					<input type="radio" name="money">沒有嗚嗚
+					<input type="radio" name="money" value="yes" checked >有
+					<input type="radio" name="money" value="no">沒有嗚嗚
 					<br/><br/>
-					<label for="userName">連絡電話:</label>
-					<input type="text" id="tel" size="20" value="" placeholder="不會騷擾你的!" required>
+					連絡電話: <input type="text" name="phone">
 					<br/><br/>
 					想說的話:<br/>
 					<textarea name="talk" rows="2" cols="30"></textarea>
